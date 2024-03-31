@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soumen's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#skills" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/profile-pic-.png" alt="John Doe profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Soumen</h1>
+      <p class="section__text__p2">Data Scientist / Data Analyst / Power BI Analyst / Machine Learning / NLP</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('assets/Soumen_Resume.pdf')">
+          Download Resume
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='index.html#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="window.open('https://www.linkedin.com/in/soumen-2003-mondal','_blank')" />
+        <img src="./assets/github.png" alt="My Github profile" class="icon"
+          onclick="window.open('https://github.com/msoumen097','_blank')" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <h1 class="title">About Me</h1>
+    <div class="about-details-container"> <br>
+      <div class="text-container">
+        <h4 id="abtmetext" style="font-family:'Lucida Sans Unicode';">
+          Graduate in Computer Science with Specialisation in Design
+          <a href="https://bcrec.ac.in/">@ Dr. B. C. Roy Enginering College</a>,
+          Durgapur, West Bengal. Looking forward for an opportunity to work in a relevant position in any organization
+          where I
+          can learn and contribute. I possess excellent communication skills, analytical skills, problem solving
+          skills, data preprocessing, data cleaning ,data modeling and reporting skills.
+        </h4>
+      </div> <br>
+      <div class="about-containers">
+        <div class="details-container">
+          <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+          <h3>Experience</h3> <br>
+          <h4>
+            <p>Jan 2024 - Present</p>
+            <p><a href="https://www.innomatics.in/">Data Science Intern @ Innomatics Research Labs, Hyderabad </a></p>
+          </h4> <br>
+          <h4>
+            <p>Oct 2022 - Jan 2023 </p>
+            <p><a>Data Science Intern @ BHARAT INTERN</a>
+            </p>
+          </h4>
+
+        </div>
+        <div class="details-container">
+          <img src="./assets/education.png" alt="Education icon" class="icon" />
+          <h3>Education</h3> <br>
+          <h4>
+            <p>2021 - 2025 </p> B.Tech in Computer Science and Design <p><a href="https://bcrec.ac.in/"> @ Dr. B. C. Roy
+                Enginering College </a>
+          </h4>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section id="skills">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Skills</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <div class="article-container">
+            <article>
+              <img src="./assets/python.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Python</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/java.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Java</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/numpy.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Numpy</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/pandas.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Pandas</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/matplotlib.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Matplotlib</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/seaborn.jpeg" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Seaborn</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/EDA.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>EDA & Preprocessing</h3>
+              </div>
+            </article>
+            </article>
+            <article>
+              <img src="./assets/flask.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Flask</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/Power-bi.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Power BI</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/ML.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Machine Learning</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <!-- First project -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/startup-web-app.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Startup Analysis Web App by using Streamlit</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/msoumen097/Startup-Analysis','_blank')">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://startup-analysis-web-app.streamlit.app/','_blank')">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <!-- Second project -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/EDA-as.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">EDA on IPL DATA By Adavnce Analytical Tool </h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/msoumen097/Analysis-on-IPL-DataSet/blob/main/Analysis%20of%20IPL.pdf','_blank')">
+              Github
+            </button>
+          </div>
+        </div>
+        <!-- Third project -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/laptop-price-pred.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Laptop-Price-Prediction Web App</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/msoumen097/Laptop-Price-Prediction','_blank')">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://pred-price.onrender.com/','_blank')">
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-5.png" alt="Project 5" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Sentiment Analysis Of Flipkart Customer Reviews</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/msoumen097/Review-Sentiment-Analyzer','_blank')">
+              Github
+            <!-- </button>
+            <button class="btn btn-color-2 project-btn" onclick="window.open('http://35.180.192.97:5000/','_blank')">
+              Live Demo
+            </button> -->
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-6.png" alt="Project 6" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Flask App - Regex Matching and Email Verification</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/msoumen097/Regex_web_app/tree/main','_blank')">
+              Github
+            <!-- </button>
+            <button class="btn btn-color-2 project-btn" onclick="window.open('http://54.166.164.52:5000/','_blank')">
+              Live Demo
+            </button> -->
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-7.png" alt="Project 7" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Exploratory Data Analysis on AMEO Dataset</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://drive.google.com/file/d/1xi4ZFls6CTSwcfRgxraWq112E8LYV0U7/view?usp=sharing','_blank')">
+              Open
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:soumon2003@gmail.com">soumon2003@gmail.com</a></p>
+      </div>
+      <br>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/soumen-2003-mondal">Soumen Mondal</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/github.png" alt="Github icon" class="icon contact-icon" />
+        <p><a href="https://github.com/msoumen097">Github</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/whatsapp.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href=tel:+917602111404>+917602111404</a></p>
+      </div>
+    </div>
+
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Soumen. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+
+</html>
